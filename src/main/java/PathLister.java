@@ -32,7 +32,7 @@ public class PathLister {
             e.printStackTrace();
         }
 
-//      Method's end result - printing out the names of de directories and files:
+//      Method's end result - printing out the names of the directories and files:
         for (int i = 0; i < allContent.size(); i++) {
             Path entry = allContent.get(i).getFileName();
             System.out.println(entry);
