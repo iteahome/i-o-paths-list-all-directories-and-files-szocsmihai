@@ -48,29 +48,3 @@ public class PathLister {
 
     }
 }
-
-
-
-
-
-
-
-
-//public class PathLister {
-//
-//    public static void listFiles (final File directory) {
-//        for (final File entry : directory.listFiles()) {
-//            if (entry.isDirectory()) {
-//                listFiles(entry);
-//            } else {
-//                System.out.println(entry.getName());
-//            }
-//        }
-//    }
-//
-//
-//    public static void main(String[] args) {
-//        File directory = new File("c:\\Users\\M17\\Desktop\\");
-//        listFiles(directory);
-//    }
-//}
